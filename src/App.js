@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      app
+    <div className='App bg-dark text-white'>
+      using bootstrap
     </div>
   );
 }
