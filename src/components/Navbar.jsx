@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import {FaBar, FaTimes} from 'react-icons';
+import {FaBar, FaTimes} from 'react-icons/fa';
+
 
 const Navbar = () => {
   return (
