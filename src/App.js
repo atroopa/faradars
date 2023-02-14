@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="h-screen bg-gradient-to-b from-[#0A192F] to-[#1C3048]">
       <Navbar/>
     </div>
   );
