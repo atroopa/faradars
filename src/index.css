@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+
+    body {
+        @apply bg-[#0A192F];
+    }
+
     li {
         @apply px-4;
         @apply cursor-pointer;

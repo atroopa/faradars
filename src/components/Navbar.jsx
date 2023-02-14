@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { FaBars, FaTimes} from 'react-icons/fa';
 import Logo from '../assets/logo.png';
+import Social from './Social';
 
 const Navbar = () => {
 
@@ -45,7 +46,7 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'>خانه</li>
             </ul>
         </div>
-
+        <Social/>
     </div>
   );
 }
